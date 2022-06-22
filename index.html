@@ -26,74 +26,82 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDay"></p>
     </header>
+
     <div class="container">
       <!-- Timeblocks go here -->
-        <div class="row align-items-center">
-          <div class="col-md-2 time-block hour hour">9AM</div>
-          <textarea class="col-md-8 description"></textarea>
-          <button class="col-md-2 saveBtn fas fa-lock i:hover"></button>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-2 time-block hour">10AM</div>
-          <textarea class="col-md-8 description"></textarea>
-          <button class="col-md-2 saveBtn fas fa-lock"></button>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-2 time-block hour">11AM</div>
-          <textarea class="col-md-8 description"></textarea>
-          <button class="col-md-2 saveBtn fas fa-lock"></button>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-2 time-block hour">12PM</div>
-          <textarea class="col-md-8 description"></textarea>
-          <button class="col-md-2 saveBtn fas fa-lock"></button>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-2 time-block hour">1PM</div>
-          <textarea class="col-md-8 description"></textarea>
-          <button class="col-md-2 saveBtn fas fa-lock"></button>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-2 time-block hour" >2PM</div>
-          <textarea class="col-md-8 description"></textarea>
-          <button class="col-md-2 saveBtn fas fa-lock"></button>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-2 time-block hour">3PM</div>
-          <textarea class="col-md-8 description"></textarea>
-          <button class="col-md-2 saveBtn fas fa-lock"></button>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-2 time-block hour">4PM</div>
-          <textarea class="col-md-8 description"></textarea>
-          <button class="col-md-2 saveBtn fas fa-lock"></button>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-2 time-block hour">5PM</div>
-          <textarea class="col-md-8 description"></textarea>
-          <button class="col-md-2 saveBtn fas fa-lock"></button>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-2 time-block hour">6PM</div>
-          <textarea class="col-md-8 description"></textarea>
-          <button class="col-md-2 saveBtn fas fa-lock"></button>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-2 time-block hour" id="19">7PM</div>
-          <textarea class="col-md-8 description"></textarea>
-          <button class="col-md-2 saveBtn fas fa-lock"></button>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-2 time-block hour">8PM</div>
-          <textarea class="col-md-8 description"></textarea>
-          <button class="col-md-2 saveBtn fas fa-lock"></button>
-        </div>
+      <div id="1" class="time-block row">
+        <div class="hour col-md-1">9am</div>
+        <textarea class="description col-md 10"></textarea>
+        <button class="saveBtn btn col-md-1"><i class="fas fa fa-lock"></i></button>
       </div>
-    </div>
-  </header>
- 
+      <div id="2" class="time-block row">
+        <div class="hour col-md-1">10am</div>
+        <textarea class="description col-md 10"></textarea>
+        <button class="saveBtn btn col-md-1"><i class="fas fa fa-lock"></i></button>
+      </div>
+      <div id="3" class="time-block row">
+        <div class="hour col-md-1">11am</div>
+        <textarea class="description col-md 10"></textarea>
+        <button class="saveBtn btn col-md-1"><i class="fas fa fa-lock"></i></button>
+      </div>
+      <div id="4" class="time-block row">
+        <div class="hour col-md-1">12pm</div>
+        <textarea class="description col-md 10"></textarea>
+        <button class="saveBtn btn col-md-1"><i class="fas fa fa-lock"></i></button>
+      </div>
+      <div id="5" class="time-block row">
+        <div class="hour col-md-1">1pm</div>
+        <textarea class="description col-md 10"></textarea>
+        <button class="saveBtn btn col-md-1"><i class="fas fa fa-lock"></i></button>
+      </div>
+      <div id="6" class="time-block row">
+        <div class="hour col-md-1">2pm</div>
+        <textarea class="description col-md 10"></textarea>
+        <button class="saveBtn btn col-md-1"><i class="fas fa fa-lock"></i></button>
+      </div>
+      <div id="7" class="time-block row">
+        <div class="hour col-md-1">3pm</div>
+        <textarea class="description col-md 10"></textarea>
+        <button class="saveBtn btn col-md-1"><i class="fas fa fa-lock"></i></button>
+      </div>
+      <div id="8" class="time-block row">
+        <div class="hour col-md-1">3pm</div>
+        <textarea class="description col-md 10"></textarea>
+        <button class="saveBtn btn col-md-1"><i class="fas fa fa-lock"></i></button>
+      </div>
+      <div id="9" class="time-block row">
+        <div class="hour col-md-1">4pm</div>
+        <textarea class="description col-md 10"></textarea>
+        <button class="saveBtn btn col-md-1"><i class="fas fa fa-lock"></i></button>
+      </div>
+      <div id="10" class="time-block row">
+        <div class="hour col-md-1">5pm</div>
+        <textarea class="description col-md 10"></textarea>
+        <button class="saveBtn btn col-md-1"><i class="fas fa fa-lock"></i></button>
+      </div>
+      <div id="11" class="time-block row">
+        <div class="hour col-md-1">6pm</div>
+        <textarea class="description col-md 10"></textarea>
+        <button class="saveBtn btn col-md-1"><i class="fas fa fa-lock"></i></button>
+      </div>
+      <div id="12" class="time-block row">
+        <div class="hour col-md-1">7pm</div>
+        <textarea class="description col-md 10"></textarea>
+        <button class="saveBtn btn col-md-1"><i class="fas fa fa-lock"></i></button>
+      </div>
+      <div id="13" class="time-block row">
+        <div class="hour col-md-1">8pm</div>
+        <textarea class="description col-md 10"></textarea>
+        <button class="saveBtn btn col-md-1"><i class="fas fa fa-lock"></i></button>
+      </div>
+      <div id="14" class="time-block row">
+        <div class="hour col-md-1">9pm</div>
+        <textarea class="description col-md 10"></textarea>
+        <button class="saveBtn btn col-md-1"><i class="fas fa fa-lock"></i></button>
+      </div>
+        
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./Assets/script.js"></script>
