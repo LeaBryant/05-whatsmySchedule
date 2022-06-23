@@ -17,5 +17,12 @@ Third-Party APIs: Work Day Scheduler
 ## ScreenShot of Final Product
 ![screen Shot](/Assets/images/sceenshotofProduct.png)
 
+
+
+# Deployed Website 
+
+- Git repo: https://github.com/LeaBryant/05-whatsmySchedule
+- Live website : https://leabryant.github.io/05-whatsmySchedule/
+
 ## Creator
 Made by Lea Bryant 🦄
