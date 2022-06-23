@@ -14,4 +14,8 @@ Third-Party APIs: Work Day Scheduler
 - MOMENT JS
 - JQUERY 
 
+## ScreenShot of Final Product
+![screen Shot](/Assets/images/sceenshotofProduct.png)
+
 ## Creator
+Made by Lea Bryant 🦄

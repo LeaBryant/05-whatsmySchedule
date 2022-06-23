@@ -1,12 +1,10 @@
 // Momentjs Time format for todays date
-function displayTime() {
-    var rightNow = moment().format('MMM DD, YYYY [at] hh:mm:ss a');
-    $("#currentDay").text(rightNow)
-  };
+var time = moment().format('lll');
+$("#currentDay").text(time);
 
 // functions for present, past, future
 function format() {
-    var presentHour = moment().hours();
+    var presentHour = moment().hours(); 
     $('.time-block').each(function(){
         var hour = parseInt($(this).attr('id'));
         if (hour === presentHour){
@@ -30,17 +28,12 @@ $('.saveBtn').on('click', function(){
 });
 
 //saves tasks to be displayed 
-$('#1 .description').val(localStorage.getItem('1'));
-$('#2 .description').val(localStorage.getItem('2'));
-$('#3 .description').val(localStorage.getItem('3'));
-$('#4 .description').val(localStorage.getItem('4'));
-$('#5 .description').val(localStorage.getItem('5'));
-$('#6 .description').val(localStorage.getItem('6'));
-$('#7 .description').val(localStorage.getItem('7'));
-$('#8 .description').val(localStorage.getItem('8'));
 $('#9 .description').val(localStorage.getItem('9'));
 $('#10 .description').val(localStorage.getItem('10'));
 $('#11 .description').val(localStorage.getItem('11'));
 $('#12 .description').val(localStorage.getItem('12'));
 $('#13 .description').val(localStorage.getItem('13'));
 $('#14 .description').val(localStorage.getItem('14'));
+$('#15 .description').val(localStorage.getItem('15'));
+$('#16 .description').val(localStorage.getItem('16'));
+$('#17 .description').val(localStorage.getItem('17'));
